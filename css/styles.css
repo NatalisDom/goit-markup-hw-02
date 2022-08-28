@@ -1,0 +1,123 @@
+/* цвет основного текста серый #757575; */
+/* вторичный цвет текста графитовый #212121; */
+/* белый фон #FFFFFF  */
+/* акцент голубой #2196F3 */
+/* акцент черный в логотипе 000000 */
+/* акцент белый,контакты в футоре прозрачность 60% rgba(255, 255, 255, 0.6) */
+/* вторичный цвет фона #2F303A; */
+
+/* Устанавливаем переменные для палитры цветов в корень :root */
+:root {
+  --primary-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --second-background-color: #2f303a;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --accent-contact-color: rgba(255, 255, 255, 0.6);
+  --accent-logo-header-color: #000000;
+}
+/* Устанавливаем основной фон и основной текст документа */
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+.logo {
+  color: var(--accent-text-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-logo-header-color);
+}
+.accent {
+  color: var(--accent-logo-header-color);
+}
+
+
+/* Обнуление стиля для списка */
+.list {
+  list-style: none;
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .link.current {
+  color:var(--accent-text-color);
+}
+
+/* auth nav */
+.auth-nav .link {
+  color: var(--primary-text-color);
+  /* color: #757575; */
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-text-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--second-background-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-text-color);
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* feature list */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* .feature-list .text {
+} */
+
+/* work. Чим ми займаємося*/
+
+/* section team Наша команда */
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* footer */
+.basement {
+  background-color: var(--second-background-color);
+}
+.accent-white {
+  color: var(--primary-white-color);
+}
+.basement .logo:hover,
+.basement .logo:focus {
+  color: var(--primary-white-color);
+}
+.basement-link {
+  color: var(--primary-white-color);
+}
+.contact-link {
+  color: var(--accent-contact-color);
+}
+.basement-link:hover,
+.basement-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-text-color);
+}
+
+/* portfolio */
+/* section project portfolio */
+.project-list .title {
+  color:var(--title-text-color)
+}

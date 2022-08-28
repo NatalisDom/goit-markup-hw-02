@@ -5,108 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- Шапка сайту -->
     <header>
         <nav>
         <!-- Посилання за текстом на головну сторінку -->
-        <a href="./index.html">Web<span>Studio</span></a>
+        <a href="./index.html" class="logo">Web<span class="accent">Studio</span></a>
         <!-- Навігація сайтом -->
-        <ul>
-            <li><a href="./index.html">Студія</a></li>
-            <li><a href="">Портфоліо</a></li>
-            <li><a href="">Контакти</a></li>
+        <ul class="site-nav list">
+            <li><a href="./index.html" class="link current">Студія</a></li>
+            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li><a href="" class="link">Контакти</a></li>
         </ul>
         </nav>
         <!-- Посилання на контакти -->
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="auth-nav list">
+            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
     <!-- Банер, фонове зображення, тимчасово стоїть картинкою -->
-        <section>
+        <section class="hero">
             <!-- <img src="./images/bg.jpg" alt="банер" width="1600" height="600"> -->
-            <h1>
+            <h1 class="hero-title">
                 Ефективні рішення для <br> вашого бізнесу
             </h1>
-            <button type="button">Замовити послугу</button>
+            <button type="button" class="button">Замовити послугу</button>
         </section>
     <!-- Особливості -->
-    <section>
-        <h2>Особливості</h2>
-        <ul>
+    <section class="section">
+        <h2 class="section-title">Особливості</h2>
+        <ul class="feature-list list">
             <li>
-                <h3>увага до деталей</h3>
-                <p>
+                <h3 class="title">увага до деталей</h3>
+                <p class="text">
                     Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
                 </p>
             </li>
             <li>
-                <h3>пунктуальність</h3>
-                <p>
+                <h3 class="title">пунктуальність</h3>
+                <p class="text">
                     Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                 </p>
             </li>
             <li>
-                <h3>планування</h3>
-                <p>
+                <h3 class="title">планування</h3>
+                <p class="text">
                     Так само консультація з широким активом значною мірою зумовлює.
                 </p>
             </li>
             <li>
-                <h3>сучасні технології</h3>
-                <p>
+                <h3 class="title">сучасні технології</h3>
+                <p class="text">
                     Значимість цих проблем настільки очевидна, що реалізація планових завдань.
                 </p>
             </li>
         </ul>
     </section>
     <!-- Чим ми займаємося -->
-    <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
+    <section class="section">
+        <h2 class="section-title">Чим ми займаємося</h2>
+        <ul class="work-list list">
             <li>
-                <img src="./images/img1.jpg" alt="проектування процесу" width="370" height="294">
+                <img src="./images/studio/img1.jpg" alt="проектування процесу" width="370" height="294">
             </li>
             <li>
-                <img src="./images/img2.jpg" alt="адаптування сучасних технологій" width="370" height="294">
+                <img src="./images/studio/img2.jpg" alt="адаптування сучасних технологій" width="370" height="294">
             </li>
             <li>
-                <img src="./images/img3.jpg" alt="тестування штучного інтелекту на сприйняття кольорів" width="370" height="294">
+                <img src="./images/studio/img3.jpg" alt="тестування штучного інтелекту на сприйняття кольорів" width="370" height="294">
             </li>
         </ul>
     </section>
     <!-- Наша команда -->
-    <section>
-        <h2>Наша команда</h2>
-        <ul>
+    <section class="section">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="team-list list">
             <li>
-                <img src="./images/igor.jpg" alt="світлина Ігоря" width="270" height="260">
-                <h3>
+                <img src="./images/studio/igor.jpg" alt="світлина Ігоря" width="270" height="260">
+                <h3 class="title">
                     Ігор Дем'яненко
                 </h3>
                 <p lang="en">Product Designer</p>
             </li>
             <li>
-                <img src="./images/olga.jpg" alt="світлина Ольги" width="270" height="260">
-                <h3>
+                <img src="./images/studio/olga.jpg" alt="світлина Ольги" width="270" height="260">
+                <h3 class="title">
                     Ольга Рєпіна
-                </h3>
+                </h3 class=title>
                 <p lang="en">Frontend Developer</p>
             </li>
             <li>
-                <img src="./images/mikola.jpg" alt="світлина Миколи" width="270" height="260">
-                <h3>
+                <img src="./images/studio/mikola.jpg" alt="світлина Миколи" width="270" height="260">
+                <h3 class="title">
                     Микола Тарасов
                 </h3>
                 <p lang="en">Marketing</p>
             </li>
             <li>
-                <img src="./images/mihaylo.jpg" alt="світлина Михайла" width="270">
-                <h3>
+                <img src="./images/studio/mihaylo.jpg" alt="світлина Михайла" width="270">
+                <h3 class="title">
                     Михайло Єрмаков
                 </h3>
                 <p lang="en">
@@ -116,15 +117,15 @@
         </ul>
     </section>
     </main>
-    <footer>
+    <footer class="basement">
         <!-- Посилання за текстом на головну сторінку -->
-        <a href="./index.html">Web<span>Studio</span></a>
+        <a href="./index.html" class="logo">Web<span class="accent-white">Studio</span></a>
         <!-- Адреса компанії -->
         <address>
-            <ul>
-                <li><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11 </a></li>
+            <ul class="address-list list">
+                <li><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow" class="basement-link">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11 </a></li>
             </ul>
         </address>
     </footer>
