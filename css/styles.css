@@ -31,6 +31,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none
 }
 
 .accent {
@@ -50,6 +51,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -57,6 +59,7 @@ body {
 }
 .site-nav .link.current {
   color: var(--accent-text-color);
+  
 }
 
 /* Аутентифікація у навігації, auth nav */
@@ -67,6 +70,7 @@ body {
   font-size: 14px;
   line-height: 1,14;
   letter-spacing: 0.02em;
+  text-decoration: none
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -161,6 +165,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none
 }
 .contact-link {
   color: var(--accent-contact-color);
@@ -168,9 +173,8 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-
-
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
+  text-decoration: none
 }
 .basement-link:hover,
 .basement-link:focus,
