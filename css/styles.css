@@ -156,9 +156,21 @@ body {
 
 .basement-link {
   color: var(--primary-white-color);
+  
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .contact-link {
   color: var(--accent-contact-color);
+ 
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+
+letter-spacing: 0.03em;
 }
 .basement-link:hover,
 .basement-link:focus,
