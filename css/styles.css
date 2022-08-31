@@ -17,20 +17,22 @@
   --accent-text-color: #2196f3;
   --accent-contact-color: rgba(255, 255, 255, 0.6);
   --accent-logo-header-color: #000000;
-  --primary-button-color: #188ce8;
+  --primary-button-color: #2196f3;
+  --accent-primary-button-color: #188ce8;
+  --accent-second-button-color: #2196f3;
   --second-button-color: #f5f4fa;
 }
 /* Встановлюємо основний фон та основний колір тексту документу */
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .logo {
   color: var(--accent-text-color);
 
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -96,10 +98,10 @@ body {
 }
 .button-primary {
   color: var(--primary-white-color);
-  background-color: var(--accent-text-color);
+  background-color: var(--primary-button-color);
   cursor: pointer;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -107,9 +109,8 @@ body {
 }
 .button-primary:hover,
 .button-primary:focus {
-  background-color: var(--primary-button-color);
+  background-color: var(--accent-primary-button-color);
 }
-
 
 /* Секція особливості, section */
 .section-title {
@@ -205,7 +206,7 @@ body {
 }
 .button-second:hover,
 .button-second:focus {
-  background-color: var(--accent-text-color);
+  background-color: var(--accent-second-button-color);
 }
 
 .project-list .title {
