@@ -141,6 +141,9 @@ body {
 /*Чим ми займаємося, work*/
 
 /* Наша команда, section team  */
+.team {
+  background-color: #f5f4fa;
+}
 .team-list .title {
   color: var(--title-text-color);
 
@@ -149,6 +152,9 @@ body {
   line-height: 1.19;
   /* text-align: center; */
   letter-spacing: 0.03em;
+}
+.team-list > li {
+  background-color: #ffffff;
 }
 .team-list .text {
   font-size: 16px;
@@ -207,10 +213,12 @@ body {
 .button-second:hover,
 .button-second:focus {
   background-color: var(--accent-second-button-color);
+  color: var(--primary-white-color);
 }
 
 .project-list .title {
   color: var(--title-text-color);
+  text-decoration: none;
 
   font-size: 18px;
   line-height: 2;
@@ -220,4 +228,20 @@ body {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.project-link {
+  text-decoration: none;
 }
